@@ -1,0 +1,224 @@
+
+
+  /* @media screen
+ and (min-width: 600px)
+  {
+.container {
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    height: 1100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    border: 1px solid black;
+}
+* {
+    border: 1px solid black;
+}
+.aside1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / 2;
+}
+.aside2 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / 2;
+    
+}
+.aside3 {
+    grid-column: 3 / span 1;
+    grid-row: 1 / 2;
+   
+}
+.aside4 {
+    grid-column: 4 / span 1;
+    grid-row: 1 / 2;
+}
+
+.profile1 {
+    grid-column: 1 / span 4;
+    grid-row: 2 / 3;
+}
+.profile2 {
+    grid-column: 1 / span 4;
+    grid-row: 3 / 6;
+}
+.education1 {
+    grid-column: 1 / span 4;
+}
+.education2 {
+    grid-column: 1 / span 4;
+    grid-row: 7 / 12;
+}
+.skills1 {
+    grid-column: 1 / span 4;
+}
+.skills2 {
+    grid-row: 13 / 16;
+    grid-column: 1 / span 2;
+}
+.skills3 {
+    grid-row: 13 / 16;
+    grid-column: 3 / span 2;
+}
+.profexs1 {
+    grid-column: 1 / span 4;
+}
+.profexs2 {
+    grid-column: 1 / span 4;
+    grid-row: 17 / 21;
+}
+  }
+
+  @media screen
+ and (min-width: 768px)
+  { */
+.container {
+    display: grid;
+    
+    margin: 20px;
+    padding: 0px;
+    border: 1px solid black;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(19, 1fr);
+    height: 1100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    border: 1px solid black;
+}
+/* * {
+    border: 1px solid black;
+} */
+.top {
+    background-color: rgb(182, 180, 180);
+}
+.aside1 {
+    grid-row: 2 / 9 ;
+    grid-column: ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    background-color: rgb(182, 180, 180);
+}
+
+img {
+    width: 70%;
+    border-radius: 300px;
+}
+.aside2 {
+    grid-row: 9 / 12 ;
+    display: flexbox ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(182, 180, 180);
+}
+#name {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+}
+#dev {
+    padding: 5px;
+}
+.aside3 {
+    grid-row: 12 / 15 ;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(182, 180, 180);
+}
+.aside4 {
+    grid-row: 15 / 20 ;
+    display: flexbox;
+    flex-direction: column;
+    background-color: rgb(182, 180, 180);
+}
+.sm {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.profile1 {
+    grid-column: 2 / span 2;
+    
+}
+#profile {
+    padding-top: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.profile2 {
+    grid-column: 2 / span 2;
+    grid-row: 2 / 5;
+}
+#profinfo {
+    display: flex;
+    height: 100%;
+    font-size: calc(0.2rem + 1.5vw)
+
+}
+.education1 {
+    grid-column: 2 / span 2;
+}
+.education2 {
+    grid-column: 2 / span 2;
+    grid-row: 6 / 11;
+}
+#education {
+    
+    height: 100%;
+    font-size: calc(0.2rem + 1.3vw)
+
+}
+.skills1 {
+    grid-column: 2 / span 2;
+    
+}
+.skills2 {
+    grid-row: 12 / 15;
+    display: flex;
+
+    
+}
+ul {
+    height: 100%;
+    width: 200%;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(0.2rem + 1.2vw);
+    margin: 0;
+    justify-content: center;
+}
+#skillslist{
+    font-size: 5px
+
+}
+.skills3 {
+    grid-row: 12 / 15;
+    display: flex;
+}
+.profexs1 {
+    grid-column: 2 / span 2;
+}
+.profexs2 {
+    grid-column: 2 / span 2;
+    grid-row: 16 / 20;
+}
+.pe {
+    
+    font-size: calc(0.2rem + 1.3vw);
+    
+}

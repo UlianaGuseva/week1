@@ -1,0 +1,63 @@
+/* * {
+    border: 1px solid black;
+} */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    gap: 10px;
+    width: 700px;
+    height: 300px;
+    border: 1px solid black;
+}
+.yel1 {
+    background-color: yellow;
+    grid-row: 1 /3;
+}
+.yel2 {
+    background-color: yellow;
+    grid-row: 3 /5;
+}
+.yel3 {
+    background-color: yellow;
+    grid-row: 5 /7;
+}
+.yel4 {
+    background-color: yellow;
+    grid-row: 7 /9;
+    
+}
+.yel5 {
+    background-color: yellow;
+    grid-column: 3/ span1;
+    grid-row: 1/3;
+}
+.yel6 {
+    background-color: yellow;
+    grid-column: 3/ span1;
+    grid-row: 3/5;
+}
+.yel7 {
+    background-color: yellow;
+    grid-column: 3/ span1;
+    grid-row: 5/7;
+}
+.yel8 {
+    background-color: yellow;
+    grid-column: 3/ span1;
+    grid-row: 7/9;
+}
+.yel9 {
+    background-color: yellow;
+    width: 65px;
+    height: 65px;
+    
+}
+.fouryel {
+    grid-row: 4/6;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+

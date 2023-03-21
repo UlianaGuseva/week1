@@ -71,6 +71,7 @@ p {
 .card {
     display: inline-block;
     margin: 10px;
+    position: relative;
  }
 
 .product {
@@ -127,12 +128,15 @@ span {
 .sale {
     border-radius: 1000px;
     width: 40px;
+    background-color: brown;
     size: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    display: inline-block;
+    display: block;
     position: absolute;
-    margin-left: 130px;
+    /* margin-left: 130px; */
+    right: 1px;
+
 
 }

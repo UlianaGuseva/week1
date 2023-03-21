@@ -10,22 +10,56 @@ body {
 }
 
 @media screen
- and (min-width: 600px) {
+ and (max-width: 480px)
+  {
 nav {
-    background-color: rgb(6, 6, 54);
+    background-color: rgb(207, 236, 16);
     margin: 0;
     padding: 10px;
+}
+.font {
+    color: black;
 }
  }
 
  @media screen
- and (min-width: 600px) {
+ and (min-width: 480px) {
 nav {
-    background-color: rgb(6, 6, 54);
+    background-color: rgb(16, 236, 166);
     margin: 0;
     padding: 10px;
 }
+.font {
+    color: black;
  }
+}
+
+ @media screen
+ and (min-width: 768px) {
+nav {
+    background-color: rgb(236, 16, 16);
+    margin: 0;
+    padding: 10px;
+}
+.font {
+    color: white;
+ }
+}
+
+ @media screen
+ and (min-width: 1024px) {
+nav {
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+}
+.font {
+    color: white;
+ }
+ }
+
+
+
 i {
     color: white;
     font-size: 40px;
@@ -33,7 +67,6 @@ i {
 
 a {
     text-transform: uppercase;
-    color: white;
     font-size: 16px;
     font-weight: bold;
     float: right;
@@ -42,11 +75,26 @@ a {
     padding: 10px;
 }
 
+@media screen
+and (min-width: 600px)
+ {.content {
+   display: flex;
+   flex-direction: column;
+   margin-left: 100px;
+   margin-top: 50px;
+ }
+}
+
+@media screen
+ and (min-width: 768px)
+  {
 .content {
-    width: 40%;
+    display: flex;
+    flex-direction: row;
     margin-left: 100px;
     margin-top: 50px;
 }
+  }
 
 
  
@@ -68,15 +116,7 @@ a {
  }
 
 
-/* @media screen
- and (min-width: 768px)
- and (max-width: 1600px) {
-    .title {
-        font-size: 25px;
-    
-}
- }
-*/
+
 
 
 .text {
@@ -102,3 +142,16 @@ p {
     float: right;
     margin-right: 30px;
 }
+
+.text {
+    width: 60%;
+    margin: 20px;
+}
+
+/* @media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { } */
