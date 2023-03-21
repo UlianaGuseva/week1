@@ -3,29 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="login.css">
     <title>Shopping Website</title>
   </head>
   <body>
-    <h1>Log In</h1>
-    <form>
-        <input type="email" value="email" placeholder="email" class="login"><br>
-        <input type="password" value="Password" placeholder="password" class="login">
-        <input type="checkbox">Remember me
-        <a href="login.html">Forgot password?</a>
-        <a href="index.html">LOG IN</a>
-        <p>Or Connect with</p>
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-vk"></i>
-        <p>Ⓒ 2020</p>
-           
-    </form>
+    <div class="split left">
 
-    <div>
-        <i class="fa-solid fa-user-plus"></i>
+    <form>
+        <h1>Log In</h1>
+        <input type="email" value="email" placeholder="email" class="login2"><br>
+        <input type="password" value="Password" placeholder="password" class="login2"><br>
+        <div class="remme">
+          <div class="login">
+          <input type="checkbox" ><span>Remember me</span>
+          </div>
+        </div>
+        <br>
+        <a href="index.html" class="login" id="login">LOG IN</a>
+        <p class="login">Or Connect with</p>
+        <div class="login">
+            <a href="https://www.facebook.com/" class="a"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/" class="a"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" class="a"><i class="fa-brands fa-vk"></i></a>
+        </div>
+        <p class="login">Ⓒ 2020</p>           
+    </form>
+    </div>
+
+    <div class="split right">
+    <div class="hello">
+        <i class="fa-solid fa-user-plus" id="man"></i>
         <h1>Hello, friend!</h1>
         <h3>Enter your personal details and start journey with us</h3>
-        <h2>Register <i class="fa-solid fa-circle-arrow-right"></i></h2>
+        <a href="login.html" class="a"><h2 class="register">Register <i class="fa-solid fa-circle-arrow-right"></i></h2></a>
+    </div>
     </div>
   </body>

@@ -1,0 +1,127 @@
+/* * {
+    border: 1px solid red;
+}
+*/
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background: linear-gradient(to top left, rgb(132, 37, 222), rgb(22, 4, 39));
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+
+form {
+    width: 500px;
+    display: inline-block;
+
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 150px;
+    height: 400px;
+    margin-left: 40px;
+
+
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+
+.hello {
+    display: inline-block;
+    margin-top: 190px;
+    padding-left: 40px;
+    padding-right: 5%;
+    margin-left: 70px;
+    margin-right: auto;
+    display: flexbox;
+    
+
+}
+
+.login, .login2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+
+}
+
+#login {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(108, 22, 188);
+}
+
+.login2 {
+    text-align: left;
+}
+
+i {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#man {
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+
+.register {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.a {
+    color: black;
+}
