@@ -1,0 +1,58 @@
+span {
+    background-color: yellow;
+}
+
+.senses {
+    margin-left: 10%;
+}
+
+#senses {
+    text-decoration: underline;
+}
+
+#media {
+   text-align: center;
+}
+
+.catpic {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid bisque;
+}
+
+.tr1 {
+    color: red;
+    border: 1px solid red;
+    text-align: center;
+    height: 20px;
+}
+
+.tr2 {
+    border: none;
+    height: 20px;
+}
+
+.tr3 {
+    border: 1px solid black;
+    text-align: center;
+    height: 20px;
+}
+
+.tr4 {
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+}
+
+.lionpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500;
+    height: 300;
+
+}
