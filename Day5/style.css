@@ -40,8 +40,39 @@ body {
     color: black;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 10px;
    
     
+}
+.lnav:hover {
+    transition: 1s;
+    background-color: rgba(96, 96, 250, 0.5); 
+    
+}
+
+.aboutme1 {
+    border-radius: 10px;
+}
+
+.aboutme1:hover {
+    background-color: rgba(96, 96, 250, 0.5); 
+    transition: 1s;
+}
+.projects1 {
+    border-radius: 10px;
+}
+
+.projects1:hover {
+    background-color: rgba(96, 96, 250, 0.5); 
+    transition: 1s;
+}
+.resume {
+    border-radius: 10px;
+}
+
+.resume:hover {
+    background-color: rgba(96, 96, 250, 0.5); 
+    transition: 1s;
 }
 
 .fixcont {
@@ -106,7 +137,21 @@ body {
     margin-right: auto;
     padding: 30px;
 }
-
+@media screen
+and (max-width: 600px)
+ {
+    .avatardiv {
+   display: none;
+   width: 0;
+ }
+ .content {
+    width: 90%;
+ }
+ .infoabout {
+    width: 100%;
+   
+ }
+}
 .bgproj {
 background-color: rgba(243, 196, 143, 0.4);
 padding: 30px;
@@ -192,11 +237,70 @@ padding: 30px;
     margin-left: 15px;
 }
 
+@media screen
+and (max-width: 600px)
+ {
+    .resumegrid1 {
+        display: flex;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid rgba(55, 55, 55, 0,5);
+        font-size: 0.5rem;
+        margin-top: 10px;
+    }
+    .row1-1 {
+        width: 15%;
+        border-right: 4px solid rgba(14, 84, 38, 0.7);
+        text-align: right;
+        padding-right: 10px;
+    }
+    .row1-2 {
+        width: 80%;
+        margin-left: 15px;
+    }
+    .row2-1 {
+        width: 15%;
+        border-right: 4px solid rgba(14, 84, 38, 0.7);
+        text-align: right;
+        padding-right: 10px;
+    }
+    .row2-2 {
+        width: 26.6%;
+        margin-left: 15px;
+    }
+    .row2-3 {
+        width: 26.6%;
+        border-left: 1px solid rgba(14, 84, 38, 0.7);  
+        padding-left: 10px;  
+    }
+    
+    .row2-4 {
+        width: 26.6%;
+        border-left: 1px solid rgba(14, 84, 38, 0.7);
+        padding-left: 10px;  
+    }
+    .row3-1 {
+        width: 15%;
+        border-right: 4px solid rgba(14, 84, 38, 0.7);
+        text-align: right;
+        padding-right: 2px;
+        margin-left: 0;
+    }
+    .row3-2 {
+        width: 80%;
+        margin-left: 15px;
+    }
+    .gt1 {
+        writing-mode: vertical-lr;
+    text-orientation: upright;
+    }
+}
 .cont {
     border-top: 2px solid rgba(14, 84, 38, 0.7);
 }
 .contacts {
-     width: 1000px;
+     width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -226,7 +330,7 @@ padding: 50px;
 }
 
 .puttext {
-    width: 350px;
+    width: 90%px;
     height: 100px;
     border-radius: 20px;
     border: 3px solid rgba(14, 84, 38, 0.5);
@@ -239,4 +343,32 @@ padding: 50px;
     padding: 7px;
     background-color: rgb(200, 212, 201);
     font-weight: bolder;
+}
+
+@media screen
+and (max-width: 600px)
+ {
+    .socmed {
+        width: 90%;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .getintouch {
+        width: 90%;
+        margin-left: auto;
+    margin-right: auto;
+    
+    }
+    .contacts {
+   display: flex;
+   flex-direction: column;
+   margin-left: auto;
+   margin-top: auto;
+ }
+ .getintouch {
+    padding-top: 20px;
+    border-top: 2px solid rgba(14, 84, 38, 0.5);
+ }
 }
